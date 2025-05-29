@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    overflow-y: scroll;
+}
+
+.active {
+    color: #E91E63;
+    background-color: #E91E63;
+    margin-right: 12px;
+    transition: 0.3s;
+    border-radius: 0.25rem;
+    color: white;
+    padding: 4px 16px;
+}
